@@ -1,0 +1,23 @@
+# ===========================================================
+#  LinkedIn Enrichment Pipeline — Python Dependencies
+# ===========================================================
+#  Install:  pip install -r requirements_enrichment.txt
+#  Then:     playwright install chromium
+# ===========================================================
+
+# Core pipeline
+pandas>=2.0.0
+python-dotenv>=1.0.0
+
+# LinkedIn scraping (Playwright-based, v3.x)
+linkedin-scraper>=3.0.0
+
+# Playwright browser automation (installed with linkedin-scraper,
+# but listed explicitly for clarity)
+playwright>=1.40.0
+
+# Pydantic models (used by linkedin_scraper)
+pydantic>=2.0.0
+
+# Async file handling
+aiofiles>=23.0.0
